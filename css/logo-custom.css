@@ -1,0 +1,89 @@
+/* Logo personnalisé Michael Tabet - Tuyauteur Industriel */
+.navbar-brand {
+    position: relative;
+    padding: 10px 15px;
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    border-radius: 8px;
+    border: 2px solid #ff6b35;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+
+.navbar-brand:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+    border-color: #ff8c42;
+}
+
+.navbar-brand h3 {
+    color: #fff !important;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    margin: 0 !important;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    position: relative;
+}
+
+.navbar-brand h3::before {
+    content: "🔧";
+    position: absolute;
+    left: -25px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #ff6b35;
+}
+
+.navbar-brand small {
+    color: #ff6b35 !important;
+    font-size: 11px !important;
+    font-weight: 500 !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: block !important;
+    margin-top: 2px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+/* Style pour le footer logo */
+.footer-logo h3 {
+    color: #ff6b35 !important;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.footer-logo h3::before {
+    content: "⚡";
+    margin-right: 10px;
+    color: #2a5298;
+}
+
+.footer-logo p {
+    color: #666;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .navbar-brand {
+        padding: 8px 12px;
+    }
+    
+    .navbar-brand h3 {
+        font-size: 16px !important;
+    }
+    
+    .navbar-brand h3::before {
+        left: -20px;
+        font-size: 14px;
+    }
+    
+    .navbar-brand small {
+        font-size: 10px !important;
+    }
+}

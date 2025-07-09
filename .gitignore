@@ -1,0 +1,25 @@
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dossiers temporaires
+temp/
+tmp/
+
+# Fichiers de sauvegarde
+*.bak
+*.backup
+
+# Fichiers personnels sensibles
+*.private
+config.local.*
