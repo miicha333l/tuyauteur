@@ -2,6 +2,12 @@
 .DS_Store
 Thumbs.db
 
+# Fichiers de maintenance et organisation à ignorer
+CORRECTIONS.md
+MAINTENANCE.md
+ORGANISATION.md
+organiser.bat
+
 # Éditeurs
 .vscode/
 .idea/

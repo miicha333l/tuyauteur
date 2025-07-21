@@ -11,7 +11,7 @@
 	<!-- Page Title -->
     <title>CV Portfolio - Michael Tabet - Tuyauteur Industriel</title>
 	<!-- Favicon Icon -->
-	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+	<link rel="shortcut icon" type="image/x-icon" href="images/logo.png">
 	<!-- Google Fonts Css-->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,6 +24,8 @@
 	<link rel="stylesheet" href="css/swiper-bundle.min.css">
 	<!-- Font Awesome Icon Css-->
 	<link href="css/all.min.css" rel="stylesheet" media="screen">
+	<!-- Font Awesome CDN Backup -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" crossorigin="anonymous">
 	<!-- Animated Css -->
 	<link href="css/animate.css" rel="stylesheet">
     <!-- Magnific Popup Core Css File -->
@@ -32,16 +34,21 @@
 	<link rel="stylesheet" href="css/mousecursor.css">
 	<!-- Main Custom Css -->
 	<link href="css/custom.css" rel="stylesheet" media="screen">
-	<!-- Logo Custom Css -->
-	<link href="css/logo-custom.css" rel="stylesheet" media="screen">
+	<!-- Portfolio Backgrounds Css -->
+	<link href="css/portfolio-backgrounds.css" rel="stylesheet" media="screen">
 </head>
 <body>
 
     <!-- Preloader Start -->
 	<div class="preloader">
 		<div class="loading-container">
-			<div class="loading"></div>
-			<div id="loading-icon"><img src="images/loader.svg" alt=""></div>
+			<div class="logo-preloader">
+				<img src="images/logo.png" alt="Michael Tabet - Tuyauteur Industriel" class="preloader-logo">
+			</div>
+			<div class="loading-progress">
+				<div class="progress-bar"></div>
+			</div>
+			<div class="loading-text">Chargement...</div>
 		</div>
 	</div>
 	<!-- Preloader End -->
@@ -52,9 +59,10 @@
 			<nav class="navbar navbar-expand-lg">
 				<div class="container">
 					<!-- Logo Start -->
-					<a class="navbar-brand" href="./">
-						<h3 style="color: #fff; margin: 0; font-weight: bold;">Michael Tabet</h3>
-						<small style="color: #ccc; display: block; font-size: 12px;">Tuyauteur Industriel</small>
+					<a class="navbar-brand" href="index.html">
+						<div class="header-logo">
+							<img src="images/logo.png" alt="Michael Tabet - Tuyauteur Industriel" title="Michael Tabet - Portfolio">
+						</div>
 					</a>
 					<!-- Logo End -->
 
@@ -62,6 +70,7 @@
 					<div class="collapse navbar-collapse main-menu">
 						<ul class="navbar-nav ms-auto">
 							<li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+							<li class="nav-item"><a class="nav-link" href="about.html">À Propos</a></li>
 							<li class="nav-item"><a class="nav-link" href="projets.html">Projets d'Atelier</a></li>
 							<li class="nav-item"><a class="nav-link" href="contact.html">Me Contacter</a></li>
 						</ul>
@@ -86,9 +95,9 @@
                         <h2 style="color: #fff; margin-bottom: 20px;">Tuyauteur Industriel en Formation</h2>
                         <p class="wow fadeInUp" data-wow-delay="0.2s">Candidat motivé spécialisé en tuyauterie industrielle. Formation complète avec projets pratiques en atelier : soudure, assemblage, montage de réseaux industriels.</p>
                         <div class="hero-buttons wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="contact.html" class="btn-default">Mon CV</a>
+                            <a href="assets/Michael_tabet_cv_20-01-2025.pdf" target="_blank" class="btn-default">Mon CV</a>
                             <a href="tel:+33767808589" class="btn-default btn-highlighted">Me Contacter</a>
-                            <a href="https://github.com/miicha333l/tuyauteur" target="_blank" class="btn-default" style="background: #333; border-color: #333;">
+                            <a href="https://github.com/miicha333l" target="_blank" class="btn-default" style="background: #333; border-color: #333;">
                                 <i class="fab fa-github"></i> GitHub
                             </a>
                         </div>
@@ -101,14 +110,15 @@
     <!-- Hero Section End -->
 
     <!-- About Us Section Start -->
-    <div class="about-us">
+    <div class="about-us" style="position: relative; overflow: hidden;">
+        <div class="section-bg-shape-1" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('images/background/section-bg-shape-1.png') no-repeat; background-position: top left; background-size: auto; opacity: 0.1; z-index: -1;"></div>
         <div class="container">
             <div class="row section-row align-items-center">
                 <div class="col-lg-12">
                     <!-- Section Title Start -->
                     <div class="section-title section-title-center">
                         <h3 class="wow fadeInUp">Ma Formation</h3>
-                        <h2 class="text-effect" data-cursor="-opaque">Formation spécialisée en tuyauterie industrielle avec acquisition des compétences techniques et pratiques du secteur industriel.</h2>
+                        <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">Formation spécialisée en tuyauterie industrielle avec acquisition des compétences techniques et pratiques du secteur industriel.</h2>
                     </div>
                     <!-- Section Title End -->
                 </div>
@@ -117,7 +127,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6">
                     <!-- About Us Box Start -->
-                    <div class="about-us-box">
+                    <div class="about-us-box card-bg-enhanced">
                         <!-- About Us Item Start -->
                         <div class="about-us-item">
                             <div class="about-us-icon">
@@ -133,7 +143,7 @@
 
                 <div class="col-lg-3 col-md-6">
                     <!-- About Us Box Start -->
-                    <div class="about-us-box">
+                    <div class="about-us-box card-bg-enhanced">
                         <!-- About Us Item Start -->
                         <div class="about-us-item">
                             <div class="about-us-icon">
@@ -149,7 +159,7 @@
 
                 <div class="col-lg-3 col-md-6">
                     <!-- About Us Box Start -->
-                    <div class="about-us-box">
+                    <div class="about-us-box card-bg-enhanced">
                         <!-- About Us Item Start -->
                         <div class="about-us-item">
                             <div class="about-us-icon">
@@ -165,7 +175,7 @@
 
                 <div class="col-lg-3 col-md-6">
                     <!-- About Us Box Start -->
-                    <div class="about-us-box">
+                    <div class="about-us-box card-bg-enhanced">
                         <!-- About Us Item Start -->
                         <div class="about-us-item">
                             <div class="about-us-icon">
@@ -184,7 +194,8 @@
     <!-- About Us Section End -->
 
     <!-- Our Services Section Start -->
-    <div class="our-services">
+    <div class="our-services" style="position: relative; overflow: hidden;">
+        <div class="section-bg-shape-2" style="position: absolute; top: 50%; right: 0; width: 100%; height: 100%; background: url('images/background/section-bg-shape-2.png') no-repeat; background-position: top right; background-size: auto; opacity: 0.08; z-index: -1; transform: translateY(-50%);"></div>
         <div class="container">
             <div class="row section-row">
                 <div class="col-lg-12">
@@ -200,14 +211,14 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6">
                     <!-- Service Item Start -->
-                    <div class="service-item wow fadeInUp">
+                    <div class="service-item wow fadeInUp card-bg-enhanced">
                         <div class="service-item-content">
                             <h3>Soudage Industriel</h3>
-                            <p>Maîtrise des techniques de soudage TIG, MIG/MAG, électrode enrobée. Soudure sur acier, inox, aluminium selon normes industrielles.</p>
+                            <p>Maîtrise des techniques de soudage TIG/ARC. Soudure sur acier, inox selon les normes industrielles.</p>
                         </div>
                         <div class="service-item-image">
                             <figure>
-                                <img src="images/cintrage.jpg" alt="Soudage industriel">
+                                <img src="images/projects/reseaux_tuyauterie_2.jpg" alt="Cintrage de tube acier - Technique de formage à chaud selon norme EN 10216">
                             </figure>
                         </div>
                     </div>
@@ -216,14 +227,14 @@
 
                 <div class="col-lg-4 col-md-6">
                     <!-- Service Item Start -->
-                    <div class="service-item wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="service-item wow fadeInUp card-bg-enhanced" data-wow-delay="0.2s">
                         <div class="service-item-content">
                             <h3>Montage de Réseaux</h3>
                             <p>Assemblage de tuyauteries industrielles, raccordement de vannes, brides, supports. Respect des contraintes thermiques et mécaniques.</p>
                         </div>
                         <div class="service-item-image">
                             <figure>
-                                <img src="images/bride_colerette.jpg" alt="Montage de réseaux">
+                                <img src="images/projects/bride_emmencher_rak.jpg" alt="Assemblage bride à collerette DN80 - Raccordement par emmanchement selon NF EN 1092">
                             </figure>
                         </div>
                     </div>
@@ -232,14 +243,14 @@
                 
                 <div class="col-lg-4 col-md-6">
                     <!-- Service Item Start -->
-                    <div class="service-item wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="service-item wow fadeInUp card-bg-enhanced" data-wow-delay="0.4s">
                         <div class="service-item-content">
                             <h3>Lecture Plans Industriels</h3>
                             <p>Interprétation des plans d'ensembles, isométries, schémas P&ID. Calculs de développés et traçage de pièces complexes.</p>
                         </div>
                         <div class="service-item-image">
                             <figure>
-                                <img src="images/plan_iso.jpg" alt="Lecture plans industriels">
+                                <img src="images/projects/plan_iso.jpg" alt="Plan isométrique de tuyauterie - Lecture et interprétation selon norme ISO 5807">
                             </figure>
                         </div>
                     </div>
@@ -258,7 +269,7 @@
                     <!-- Section Title Start -->
                     <div class="section-title section-title-center">
                         <h3 class="wow fadeInUp">Mes Projets d'Atelier</h3>
-                        <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">Réalisations pratiques et <span>apprentissage</span></h2>
+                        <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">Réalisations pratiques et <span>démonstrations</span></h2>
                     </div>
                     <!-- Section Title End -->
                 </div>
@@ -271,7 +282,7 @@
                         <div class="project-image">
                             <a href="projets.html" data-cursor-text="Voir">
                                 <figure class="image-anime">
-                                    <img src="images/demo1.jpg" alt="Assemblage réseau vapeur industriel">
+                                    <img src="images/projects/demo1.jpg" alt="Réseau vapeur industriel">
                                 </figure>
                             </a>
                         </div>
@@ -281,7 +292,7 @@
                         </div>
                         <div class="project-btn">
                             <a href="projets.html">
-                                <img src="images/arrow-white.svg" alt="">
+                                <img src="images/background/arrow-white.svg" alt="">
                             </a>
                         </div>
                     </div>
@@ -294,17 +305,17 @@
                         <div class="project-image">
                             <a href="projets.html" data-cursor-text="Voir">
                                 <figure class="image-anime">
-                                    <img src="images/demo2.jpg" alt="Circuit fluides process">
+                                    <img src="images/projects/demo2.jpg" alt="Circuit process industriel - Tuyauterie haute pression DN100 avec raccords vissés et supports fixes">
                                 </figure>
                             </a>
                         </div>
                         <div class="project-content">
                             <h3><a href="projets.html">Circuit Fluides Process</a></h3>
-                            <p>Raccordements haute pression</p>
+                            <p>Raccordements industriels</p>
                         </div>
                         <div class="project-btn">
                             <a href="projets.html">
-                                <img src="images/arrow-white.svg" alt="">
+                                <img src="images/background/arrow-white.svg" alt="">
                             </a>
                         </div>
                     </div>
@@ -317,7 +328,7 @@
                         <div class="project-image">
                             <a href="projets.html" data-cursor-text="Voir">
                                 <figure class="image-anime">
-                                    <img src="images/demo3.jpg" alt="Soudage TIG inox">
+                                    <img src="images/projects/demo3.jpg" alt="Soudage TIG inox 316L - Assemblage alimentaire DN50 avec contrôle d'étanchéité selon normes EHEDG">
                                 </figure>
                             </a>
                         </div>
@@ -327,7 +338,7 @@
                         </div>
                         <div class="project-btn">
                             <a href="projets.html">
-                                <img src="images/arrow-white.svg" alt="">
+                                <img src="images/background/arrow-white.svg" alt="">
                             </a>
                         </div>
                     </div>
@@ -340,17 +351,17 @@
                         <div class="project-image">
                             <a href="projets.html" data-cursor-text="Voir">
                                 <figure class="image-anime">
-                                    <img src="images/demo4.jpg" alt="Préfabrication ensembles">
+                                    <img src="images/projects/demo4.jpg" alt="Préfabrication ensemble multi-matériaux - Acier carbone et inox avec raccords mixtes">
                                 </figure>
                             </a>
                         </div>
                         <div class="project-content">
                             <h3><a href="projets.html">Préfabrication Ensembles</a></h3>
-                            <p>Acier, Inox, Plastique</p>
+                            <p>Acier, Inox</p>
                         </div>
                         <div class="project-btn">
                             <a href="projets.html">
-                                <img src="images/arrow-white.svg" alt="">
+                                <img src="images/background/arrow-white.svg" alt="">
                             </a>
                         </div>
                     </div>
@@ -378,13 +389,13 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6">
                     <!--  Facts Item Start -->
-                    <div class="facts-item wow fadeInUp">
+                    <div class="facts-item wow fadeInUp card-bg-enhanced">
                         <div class="facts-item-title">
                             <h3>Durée de Formation</h3>
                         </div>
                         <div class="facts-item-counter">
-                            <h2><span class="counter">12</span></h2>
-                            <p>Mois de Formation</p>
+                            <h2><span class="counter">830</span>+</h2>
+                            <p>Heures de Formation</p>
                         </div>
                         <div class="facts-item-content">
                             <p>Formation spécialisée en tuyauterie industrielle avec théorie et pratique équilibrées.</p>
@@ -395,16 +406,16 @@
 
                 <div class="col-lg-4 col-md-6">
                     <!--  Facts Item Start -->
-                    <div class="facts-item wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="facts-item wow fadeInUp card-bg-enhanced" data-wow-delay="0.2s">
                         <div class="facts-item-title">
                             <h3>Projets Réalisés</h3>
                         </div>
                         <div class="facts-item-counter">
-                            <h2><span class="counter">25</span>+</h2>
+                            <h2><span class="counter">10</span>+</h2>
                             <p>Projets d'Atelier</p>
                         </div>
                         <div class="facts-item-content">
-                            <p>Plus de 25 projets industriels réalisés en atelier : réseaux vapeur, fluides process, soudage multi-matériaux.</p>
+                            <p>Plus de 10 projets industriels réalisés en atelier : réseaux complexes, soudage multi-matériaux.</p>
                         </div>
                     </div>
                     <!-- Facts Item End -->
@@ -412,7 +423,7 @@
 
                 <div class="col-lg-4 col-md-6">
                     <!--  Facts Item Start -->
-                    <div class="facts-item wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="facts-item wow fadeInUp card-bg-enhanced" data-wow-delay="0.4s">
                         <div class="facts-item-title">
                             <h3>Évaluation Formation</h3>
                         </div>
@@ -430,7 +441,7 @@
                 <div class="col-lg-12">
                     <!-- Section Footer Text Start -->
                     <div class="section-footer-text wow fadeInUp" data-wow-delay="0.6s">
-                        <p><span>Disponible</span> Candidat motivé prêt à rejoindre votre équipe. <a href="contact.html">Consultez mon CV complet</a></p>
+                        <p><span>Disponible</span> Candidat motivé prêt à rejoindre votre équipe. <a href="assets/Michael_tabet_cv_20-01-2025.pdf" target="_blank">Consultez mon CV complet</a></p>
                     </div>
                     <!-- Section Footer Text End -->
                 </div>
@@ -465,7 +476,7 @@
                                     <div class="swiper-slide">
                                         <div class="testimonial-item">
                                             <div class="testimonial-content">
-                                                <p>"Élève exemplaire avec une progression remarquable en soudage industriel. Maîtrise rapidement les techniques TIG et MIG/MAG. Montre un réel intérêt pour la tuyauterie industrielle. Je recommande vivement."</p>
+                                                <p>"Élève exemplaire avec une progression remarquable en soudage industriel. Maîtrise rapidement les techniques TIG et électrode. Montre un réel intérêt pour la tuyauterie industrielle. Je recommande vivement."</p>
                                                 <h4>- M. greg, Formateur dessin projeteur</h4>
                                             </div>                                        
                                         </div>
@@ -477,7 +488,7 @@
                                         <div class="testimonial-item">
                                             <div class="testimonial-content">
                                                 <p>"Candidat sérieux et motivé. Excellente compréhension des plans industriels et isométries. Respect strict des consignes de sécurité. Prêt pour le milieu industriel."</p>
-                                                <h4>- M. Dupuis, formateur naval</h4>
+                                                <h4>- Marc D., formateur naval</h4>
                                             </div>                                        
                                         </div>
                                     </div>
@@ -524,7 +535,7 @@
 
                             <!-- CTA Box Body Start -->
                             <div class="cta-box-body wow fadeInUp" data-wow-delay="0.6s">
-                                <a href="contact.html" class="btn-default btn-highlighted">Consulter mon CV</a>
+                                <a href="assets/Michael_tabet_cv_20-01-2025.pdf" target="_blank" class="btn-default btn-highlighted">Consulter mon CV</a>
                                 <a href="tel:+33767808589" class="btn-default">Me contacter</a>
                             </div>
                             <!-- CTA Box Body End -->
@@ -539,7 +550,8 @@
     <!-- CTA Box Section End -->
 
     <!-- Footer Start -->
-    <footer class="main-footer">
+    <footer class="main-footer" style="position: relative; overflow: hidden;">
+        <div class="section-bg-shape-1" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('images/background/section-bg-shape-1.png') no-repeat; background-position: top left; background-size: auto; opacity: 0.05; z-index: -1;"></div>
         <div class="container">
             <div class="row section-row align-items-center">
                 <div class="col-lg-7">
@@ -561,45 +573,42 @@
             </div>
 
             <div class="row">
-                <div class="col-lg-3 col-md-4">
+                <div class="col-lg-4 col-md-6">
                     <!-- About Footer Start -->
                     <div class="about-footer">
                         <!-- Footer Logo Start -->
                         <div class="footer-logo">
-                            <h3>Michael Tabet</h3>
-                            <p>Tuyauteur Industriel</p>
+                            <img src="images/logo.png" alt="Michael Tabet - Tuyauteur Industriel">
+                            <p>Tuyauteur Industriel en formation</p>
+                            <p style="color: #A93E17; font-weight: 600; margin-top: 10px;">Moselle (57) - Mobile en France</p>
                         </div>
                         <!-- Footer Logo End -->
                     </div>
                     <!-- About Footer End -->
                 </div>
 
-                <div class="col-lg-5 col-md-8">
+                <div class="col-lg-4 col-md-6">
                     <div class="footer-contact-box">
                         <!-- Footer Links Start -->
                         <div class="footer-links">
                             <h3>Me Contacter</h3>
-                            <p><a href="tel:+33767808589">07 67 80 85 89</a></p>
-                            <p><a href="mailto:michael-tabet@gmx.fr">michael-tabet@gmx.fr</a></p>
-                            <p><a href="https://github.com/miicha333l/tuyauteur" target="_blank"><i class="fab fa-github"></i> Mon GitHub</a></p>
-                        </div>
-                        <!-- Footer Links End -->
-
-                        <!-- Footer Links Start -->
-                        <div class="footer-links">
-                            <h3>Mon Adresse</h3>
-                            <p>16 rue des Près<br>Petite Roselle</p>
+                            <p><i class="fas fa-phone" style="color: #A93E17; margin-right: 8px;"></i><a href="tel:+33767808589">07 67 80 85 89</a></p>
+                            <p><i class="fas fa-envelope" style="color: #A93E17; margin-right: 8px;"></i><a href="mailto:michael-tabet@gmx.fr">michael-tabet@gmx.fr</a></p>
+                            <p><i class="fab fa-github" style="color: #A93E17; margin-right: 8px;"></i><a href="https://github.com/miicha333l" target="_blank">Mon GitHub</a></p>
                         </div>
                         <!-- Footer Links End -->
                     </div>                    
                 </div>
 
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-12">
                     <!-- Footer Links Start -->
                     <div class="footer-links footer-privacy-policy">
-                        <h3>Disponibilité</h3>
-                        <p>Disponible immédiatement<br>Recherche active d'emploi</p>
-                        <a href="contact.html" class="btn-default">Voir mon CV</a>
+                        <h3>Disponibilité</h3>                            <p><i class="fas fa-calendar-check" style="color: #A93E17; margin-right: 8px;"></i>Disponible immédiatement</p>
+                            <p><i class="fas fa-user-clock" style="color: #A93E17; margin-right: 8px;"></i>Recherche active d'emploi</p>
+                            <p><i class="fas fa-briefcase" style="color: #A93E17; margin-right: 8px;"></i>Ouvert stage et CDI</p>
+                        <a href="assets/Michael_tabet_cv_20-01-2025.pdf" target="_blank" class="btn-default" style="margin-top: 15px;">
+                            <i class="fas fa-eye"></i> Voir mon CV
+                        </a>
                     </div>
                     <!-- Footer Links End -->                        
                 </div>
@@ -607,7 +616,7 @@
                 <div class="col-lg-12">
                     <!-- Footer Copyright Text Start -->
                     <div class="footer-copyright-text">
-                        <p>Copyright © 2025 Michael Tabet - Tuyauteur Industriel. Tous droits réservés.</p>
+                        <p>Copyright © 2025 Michael Tabet - Tous droits réservés.</p>
                     </div>
                     <!-- Footer Copyright Text End -->     
                 </div>
