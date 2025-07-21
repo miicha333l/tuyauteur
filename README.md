@@ -23,9 +23,8 @@ Portfolio professionnel de **Michael Tabet**, tuyauteur industriel en formation,
 
 ### Lecture de Plans
 - Plans d'ensembles industriels
-- Isométries de tuyauterie
 - Schémas P&ID
-- Calculs de développés
+- Lecture de plan géométral, d’orthogonalité et d’isométrie
 
 ## 📋 Projets d'Atelier Réalisés
 
