@@ -4,7 +4,7 @@
 
 Portfolio professionnel de **Michael Tabet**, tuyauteur industriel en formation, spécialisé en :
 - 🏭 Tuyauterie industrielle
-- ⚡ Soudage TIG/MIG/MAG
+- ⚡ Soudage TIG/ARC
 - 📐 Lecture de plans industriels
 - 🔨 Montage de réseaux complexes
 
@@ -14,8 +14,7 @@ Portfolio professionnel de **Michael Tabet**, tuyauteur industriel en formation,
 - **TIG** : Soudage tungstène inerte gaz
 - **MIG/MAG** : Soudage semi-automatique
 - **Électrode enrobée** : Soudage à l'arc
-- **Matériaux** : Acier, Inox 316L, Aluminium
-
+  
 ### Tuyauterie
 - Assemblage de réseaux vapeur
 - Circuits fluides process
@@ -24,9 +23,8 @@ Portfolio professionnel de **Michael Tabet**, tuyauteur industriel en formation,
 
 ### Lecture de Plans
 - Plans d'ensembles industriels
-- Isométries de tuyauterie
 - Schémas P&ID
-- Calculs de développés
+- Lecture de plan géométral, d’orthogonalité et d’isométrie
 
 ## 📋 Projets d'Atelier Réalisés
 
@@ -40,27 +38,27 @@ Portfolio professionnel de **Michael Tabet**, tuyauteur industriel en formation,
 ## 🎓 Formation
 
 **Tuyauteur Industriel** - Centre de Formation Spécialisé
-- Durée : 12 mois
+- Durée : 6 mois
 - Note moyenne : 18/20
-- Plus de 25 projets d'atelier réalisés
+- Plus de 10 projets d'atelier réalisés
 
 ## 📜 Certifications
 
-- ✅ **Certificats de Réalisation** - Projets d'atelier industriels
+- ✅ **Certificats de jointage** - tests d'etencheité 
 - ✅ **Formation Travail en Hauteur** - Sécurité industrielle
 - ✅ **Formation Risque Chimique** - Manipulation produits industriels
 - ✅ **Certification ATEX** - Atmosphères explosives
 
 ## 🏆 Témoignages Formateurs
 
-> *"Élève exemplaire avec une progression remarquable en soudage industriel. Maîtrise rapidement les techniques TIG et MIG/MAG."*  
-> **M. Greg** - Formateur Dessin Projeteur
+> **Élève exemplaire, démontrant une progression remarquable en lecture de plan. Assimile rapidement les concepts d’isométrie, d’orthogonalité et de géométrale."*  
+> **Greg M.** - Formateur Dessin Projeteur
 
 > *"Candidat sérieux et motivé. Excellente compréhension des plans industriels et isométries. Prêt pour le milieu industriel."*  
-> **M. Dupuis** - Formateur Naval
+> **Marc D** - Formateur Naval
 
 > *"Apprenant consciencieux avec une belle dextérité pour le montage de réseaux complexes. Un atout pour toute entreprise industrielle."*  
-> **K. Maklouf** - Formateur Tuyauterie Industrielle
+> **Maklouf K.** - Formateur Tuyauterie Industrielle
 
 ## 📞 Contact
 
@@ -86,8 +84,3 @@ Portfolio professionnel de **Michael Tabet**, tuyauteur industriel en formation,
 
 > *"Candidat motivé prêt à mettre ses compétences au service de votre industrie"*  
 > **Michael Tabet** - Tuyauteur Industriel
-
-![Tuyauterie](https://img.shields.io/badge/Spécialité-Tuyauterie%20Industrielle-blue)
-![Soudage](https://img.shields.io/badge/Technique-Soudage%20TIG%2FMIG-orange)
-![Formation](https://img.shields.io/badge/Statut-En%20Formation-green)
-![Disponible](https://img.shields.io/badge/Disponibilité-Immédiate-brightgreen)
